@@ -1,3 +1,26 @@
+<?php
+
+if(isset($_GET['submit'])){
+
+$name = $_GET['name'];
+$email = $_GET['email'];
+$web = $_GET['web'];
+$message = "<h1>$name</h1> <br> <h2>$email</h2> <br> <h3>$web</h3>";
+
+$length = strlen($message) * 9.3;
+
+$image = imagecreate($length,20);
+$back = imagecolorallocate($image, 0,0,0);
+$for = imagecolorallocate($image, 255,255,255);
+
+imagestring($image,5,5,1,$message,$for);
+
+header("Content-Type: image/jpeg");
+imagejpeg($image);
+}
+
+?>
+
 <html>
 
 <head>
@@ -58,8 +81,8 @@
 
 <form action="" method="" class="formsize">
 Your Name : <input type="text" name="name" id="name" class="form-control"> <br><br>
-Your Email : <input type="text" name="name" id="email" class="form-control"> <br><br>
-Your Web Address : <input type="text" name="name" id="web" class="form-control"> <br><br>
+Your Email : <input type="email" name="email" id="email" class="form-control"> <br><br>
+Your Web Address : <input type="text" name="web" id="web" class="form-control"> <br><br>
 <label>Upload Photo : </label>
 <input type="file" class="form-control-file" name="file_img" aria-describedby="fileHelp"> <br><br>
 <input type="submit" name="submit" value="Submit" class="btn btn-primary"> <br><br>
