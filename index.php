@@ -21,17 +21,16 @@ $getdata->show_info($name,$email,$web);
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="img/WisdomIcon.jpg">
+    <meta name="description" content="Business Card Generator">
+    <meta name="author" content="Kisalka Rajapaksha">
+    <link rel="icon" href="img/B Letter.png">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+	
 <title>
-
+Business Card Generator
 </title>
 
 <style>
@@ -54,8 +53,6 @@ $getdata->show_info($name,$email,$web);
 
 </style>
 
-<script type="text/javascript" src="js\jquery-3.2.1.js"></script>
-
 </head>
 
 <body>
@@ -72,10 +69,10 @@ $getdata->show_info($name,$email,$web);
 
 </p> <!-- End Of The P About Class --> <br>
 
-<form action="" method="" class="formsize">
+<form action="" method="" class="formsize" id="signupForm">
 Your Name : <input type="text" name="name" id="name" class="form-control"> <br><br>
 Your Email : <input type="email" name="email" id="email" class="form-control"> <br><br>
-Your Web Address : <input type="text" name="web" id="web" class="form-control"> <br><br>
+Your Web Address : <input type="url" name="web" id="web" class="form-control"> <br><br>
 <label>Upload Photo : </label>
 <input type="file" class="form-control-file" name="file_img" aria-describedby="fileHelp"> <br><br>
 <input type="submit" name="submit" value="Submit" class="btn btn-primary"> <br><br>
@@ -89,6 +86,14 @@ Your Web Address : <input type="text" name="web" id="web" class="form-control"> 
 
 <!-- Footer -->
 <!-- End Of The Footer -->
+	
+	<script type="text/javascript">
+        $(document).ready(function () {
+            $.getScript("validation.js", function () {
+            });
+        });
+    </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
 
 </body>
 </html>
