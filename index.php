@@ -43,12 +43,6 @@ if (isset($_GET['submit'])) {
             color: #353c47;
         }
 
-        .formsize {
-            width: 500px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
     </style>
 
     <?php
