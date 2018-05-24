@@ -33,3 +33,12 @@ And when someone successfully creates a Business Card, he or she will receive an
 All the data insert into the database.
 
 ![](https://lh3.googleusercontent.com/xe6L3AJaoc98G--_gGB-DgreBfXQnYQF4Ve-xBq2FoLZydtKjaFwzFBNfHlt0c5kTGBvNpZflhLqc8GI7Ywk=w1366-h662-rw)
+
+## Technologies and Methods Used.
+
+* HTML
+* Bootstrap
+* CSS
+* PHP
+* Jquery
+* MySql
