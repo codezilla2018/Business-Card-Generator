@@ -1,8 +1,6 @@
 # Business-Card-Generator
 kistlakall@gmail.com Kisalka Rajapaksha Kistlak IA0
 
-# Business Card Generator
-
 This is a Business Card Generator web application. Users have to input their name, email, web address and a photo as they want. After that, they have to click Submit button.
 
 ![](https://lh5.googleusercontent.com/8qjx6Hv3HNO9Lz-PflCgHZVygbTyo9IFjRclCMxz76MjCrH-hij6pNAe8pUnF_iWHLpfCPcH3ZRcsb_ePiu6=w1366-h662-rw)
