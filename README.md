@@ -19,6 +19,10 @@ And also this is a Responsive web site which users can access this web site from
 
 ![](https://lh4.googleusercontent.com/XlfK-9DXqQhcn5ew1INE-lqO6o9fUW3b_s0d-2lPcdpM7NzVufRW5H1vOcQVv6T6_E8n6SqhulKKQnnYj2St=w1366-h662-rw)
 
+Validation also successfully works in the mobile phone.
+
+![](https://lh5.googleusercontent.com/crUL2ZZO0-UUAexfw3ttJghh0jhLZdurFCL6QELSPEpFsqt56V-VeAcD5S6Fa0yTw3ZQZr0s0etnRttSrgDh=w1366-h662-rw)
+
 And when someone successfully creates a Business Card, he or she will receive an email which he or she provided.
 
 ![](https://lh5.googleusercontent.com/XO8nCmevHQCKCawlu5VwqYXJKUMlpjD6Y99T-C2MjF8bR9FAT6K87GUuzIq2lDUdRxC5IyDSp0V_pTQfwLH2=w1366-h662-rw)
