@@ -1,7 +1,7 @@
-# Business-Card-Generator
-kistlakall@gmail.com Kisalka Rajapaksha Kistlak IA0
-
 This is a Business Card Generator web application. Users have to input their name, email, web address and a photo as they want. After that, they have to click Submit button.
+
+## Here is the Live Demo - [Web Site Link](https://galle.000webhostapp.com/index.php)
+I have hosted this in the 000WebHost.
 
 ![](https://lh5.googleusercontent.com/8qjx6Hv3HNO9Lz-PflCgHZVygbTyo9IFjRclCMxz76MjCrH-hij6pNAe8pUnF_iWHLpfCPcH3ZRcsb_ePiu6=w1366-h662-rw)
 
@@ -26,3 +26,7 @@ Validation also successfully works in the mobile phone.
 And when someone successfully creates a Business Card, he or she will receive an email which he or she provided.
 
 ![](https://lh5.googleusercontent.com/XO8nCmevHQCKCawlu5VwqYXJKUMlpjD6Y99T-C2MjF8bR9FAT6K87GUuzIq2lDUdRxC5IyDSp0V_pTQfwLH2=w1366-h662-rw)
+
+All the data insert into the database.
+
+![](https://lh3.googleusercontent.com/xe6L3AJaoc98G--_gGB-DgreBfXQnYQF4Ve-xBq2FoLZydtKjaFwzFBNfHlt0c5kTGBvNpZflhLqc8GI7Ywk=w1366-h662-rw)
