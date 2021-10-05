@@ -21,7 +21,7 @@ class CardController
         $arrText = explode("\n", wordwrap($text, 20, "\n"));
 
         $im = @imagecreate(300, 150); //creates an image
-        $background_color = imagecolorallocate($im, 255, 255, 255); //sets image background color
+        $background_color = imagecolorallocate($im, 255, 255, 255); //sets image background color - just
         $y = 15; //vertical position of text
         foreach ($arrText as $arr) {
             $textclr = imagecolorallocate($im, 0, 0, 0); //sets text color
