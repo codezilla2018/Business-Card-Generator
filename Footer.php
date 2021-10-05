@@ -28,7 +28,7 @@
         <div class="col-md-6 col-sm-6 hero-feature">
             <div class="caption">
     <p>
-        Copyright &copy; 2018 <a class="sn" href="index.php" target="_blank">Business Card Generator</a>
+        Copyright &copy; 2018 - 2021 <a class="sn" href="index.php" target="_blank">Business Card Generator</a>
     </p>
 </div>
 </div>
